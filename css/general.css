@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+}
+
+.header-principal {
+    background: #070F1A;
+    display: flex;
+    justify-content: space-between;
+    min-height: 70px;
+    padding: 0 3%;
+}
+
+.header-principal .logo {
+    background: #ef5777;
+    height: 70px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.header-principal .logo img {
+    height: 100%;
+}
+
+.header-principal nav {
+    /* border: 2px solid #fff; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+}
+
+.header-principal nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header-principal nav a:hover {
+    text-decoration: underline 2px #ef5777;
+}
+
+.btn-general {
+    background: #575fcf;
+    border: 2px solid #575fcf;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+}
